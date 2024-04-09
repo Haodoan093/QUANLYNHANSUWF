@@ -8,6 +8,8 @@ using System.Text;
 using System.Windows.Forms;
 using BusinessLayer;
 using DataLayer;
+using QLNHANSU.CHAMCONG;
+
 namespace QLNHANSU
 {
     public partial class MainForm : DevExpress.XtraBars.Ribbon.RibbonForm
@@ -144,12 +146,12 @@ namespace QLNHANSU
 
         private void btnPhuCap_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-
+            openForm(typeof(frmPhuCap));
         }
 
         private void btnTangCa_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-
+            openForm(typeof(frmTangCa));
         }
 
         private void btnUngLuong_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
@@ -159,7 +161,7 @@ namespace QLNHANSU
 
         private void btnBangCong_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-
+            openForm(typeof(frmBangCong));
         }
 
         private void btnBangLuong_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)

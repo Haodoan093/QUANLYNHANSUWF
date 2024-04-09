@@ -1,0 +1,15 @@
+D:\cacfile zalo\Hocki2\Congnghe.net\QLNS_DCH093\BusinessLayer\bin\Release\BusinessLayer.dll.config
+D:\cacfile zalo\Hocki2\Congnghe.net\QLNS_DCH093\BusinessLayer\bin\Release\BusinessLayer.dll
+D:\cacfile zalo\Hocki2\Congnghe.net\QLNS_DCH093\BusinessLayer\bin\Release\BusinessLayer.pdb
+D:\cacfile zalo\Hocki2\Congnghe.net\QLNS_DCH093\BusinessLayer\bin\Release\DataLayer.dll
+D:\cacfile zalo\Hocki2\Congnghe.net\QLNS_DCH093\BusinessLayer\bin\Release\EntityFramework.dll
+D:\cacfile zalo\Hocki2\Congnghe.net\QLNS_DCH093\BusinessLayer\bin\Release\EntityFramework.SqlServer.dll
+D:\cacfile zalo\Hocki2\Congnghe.net\QLNS_DCH093\BusinessLayer\bin\Release\DataLayer.pdb
+D:\cacfile zalo\Hocki2\Congnghe.net\QLNS_DCH093\BusinessLayer\bin\Release\DataLayer.dll.config
+D:\cacfile zalo\Hocki2\Congnghe.net\QLNS_DCH093\BusinessLayer\bin\Release\EntityFramework.xml
+D:\cacfile zalo\Hocki2\Congnghe.net\QLNS_DCH093\BusinessLayer\bin\Release\EntityFramework.SqlServer.xml
+D:\cacfile zalo\Hocki2\Congnghe.net\QLNS_DCH093\BusinessLayer\obj\Release\BusinessLayer.csproj.AssemblyReference.cache
+D:\cacfile zalo\Hocki2\Congnghe.net\QLNS_DCH093\BusinessLayer\obj\Release\BusinessLayer.csproj.CoreCompileInputs.cache
+D:\cacfile zalo\Hocki2\Congnghe.net\QLNS_DCH093\BusinessLayer\obj\Release\BusinessLayer.csproj.CopyComplete
+D:\cacfile zalo\Hocki2\Congnghe.net\QLNS_DCH093\BusinessLayer\obj\Release\BusinessLayer.dll
+D:\cacfile zalo\Hocki2\Congnghe.net\QLNS_DCH093\BusinessLayer\obj\Release\BusinessLayer.pdb

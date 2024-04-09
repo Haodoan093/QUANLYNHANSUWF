@@ -13,3 +13,30 @@ D:\Project_01\QLNS_DCH093\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompi
 D:\Project_01\QLNS_DCH093\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
 D:\Project_01\QLNS_DCH093\BusinessLayer\obj\Debug\BusinessLayer.dll
 D:\Project_01\QLNS_DCH093\BusinessLayer\obj\Debug\BusinessLayer.pdb
+D:\cacfile zalo\Hocki2\Congnghe.net\QLNS_DCH093\BusinessLayer\bin\Debug\BusinessLayer.dll.config
+D:\cacfile zalo\Hocki2\Congnghe.net\QLNS_DCH093\BusinessLayer\bin\Debug\BusinessLayer.dll
+D:\cacfile zalo\Hocki2\Congnghe.net\QLNS_DCH093\BusinessLayer\bin\Debug\BusinessLayer.pdb
+D:\cacfile zalo\Hocki2\Congnghe.net\QLNS_DCH093\BusinessLayer\bin\Debug\DataLayer.dll
+D:\cacfile zalo\Hocki2\Congnghe.net\QLNS_DCH093\BusinessLayer\bin\Debug\EntityFramework.dll
+D:\cacfile zalo\Hocki2\Congnghe.net\QLNS_DCH093\BusinessLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\cacfile zalo\Hocki2\Congnghe.net\QLNS_DCH093\BusinessLayer\bin\Debug\DataLayer.pdb
+D:\cacfile zalo\Hocki2\Congnghe.net\QLNS_DCH093\BusinessLayer\bin\Debug\DataLayer.dll.config
+D:\cacfile zalo\Hocki2\Congnghe.net\QLNS_DCH093\BusinessLayer\bin\Debug\EntityFramework.xml
+D:\cacfile zalo\Hocki2\Congnghe.net\QLNS_DCH093\BusinessLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\cacfile zalo\Hocki2\Congnghe.net\QLNS_DCH093\BusinessLayer\obj\Debug\BusinessLayer.csproj.AssemblyReference.cache
+D:\cacfile zalo\Hocki2\Congnghe.net\QLNS_DCH093\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+D:\cacfile zalo\Hocki2\Congnghe.net\QLNS_DCH093\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
+D:\cacfile zalo\Hocki2\Congnghe.net\QLNS_DCH093\BusinessLayer\obj\Debug\BusinessLayer.dll
+D:\cacfile zalo\Hocki2\Congnghe.net\QLNS_DCH093\BusinessLayer\obj\Debug\BusinessLayer.pdb
+D:\cacfile zalo\Hocki2\Congnghe.net\QLNS_DCH093\BusinessLayer\bin\Debug\DevExpress.Data.v19.2.dll
+D:\cacfile zalo\Hocki2\Congnghe.net\QLNS_DCH093\BusinessLayer\bin\Debug\DevExpress.Xpo.v19.2.dll
+D:\cacfile zalo\Hocki2\Congnghe.net\QLNS_DCH093\BusinessLayer\bin\Debug\DevExpress.Data.v19.2.xml
+D:\cacfile zalo\Hocki2\Congnghe.net\QLNS_DCH093\BusinessLayer\bin\Debug\DevExpress.Xpo.v19.2.xml
+D:\cacfile zalo\Hocki2\Congnghe.net\QLNS_DCH093\BusinessLayer\bin\Debug\de\DevExpress.Data.v19.2.resources.dll
+D:\cacfile zalo\Hocki2\Congnghe.net\QLNS_DCH093\BusinessLayer\bin\Debug\es\DevExpress.Data.v19.2.resources.dll
+D:\cacfile zalo\Hocki2\Congnghe.net\QLNS_DCH093\BusinessLayer\bin\Debug\ja\DevExpress.Data.v19.2.resources.dll
+D:\cacfile zalo\Hocki2\Congnghe.net\QLNS_DCH093\BusinessLayer\bin\Debug\ru\DevExpress.Data.v19.2.resources.dll
+D:\cacfile zalo\Hocki2\Congnghe.net\QLNS_DCH093\BusinessLayer\bin\Debug\de\DevExpress.Xpo.v19.2.resources.dll
+D:\cacfile zalo\Hocki2\Congnghe.net\QLNS_DCH093\BusinessLayer\bin\Debug\es\DevExpress.Xpo.v19.2.resources.dll
+D:\cacfile zalo\Hocki2\Congnghe.net\QLNS_DCH093\BusinessLayer\bin\Debug\ja\DevExpress.Xpo.v19.2.resources.dll
+D:\cacfile zalo\Hocki2\Congnghe.net\QLNS_DCH093\BusinessLayer\bin\Debug\ru\DevExpress.Xpo.v19.2.resources.dll

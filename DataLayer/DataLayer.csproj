@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9D32AD21-A918-4008-AB7D-D2F9B5CF9DC1}</ProjectGuid>
+    <ProjectGuid>{27A0B362-D5FF-4A0C-B438-62A7C743FFB0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>DataLayer</RootNamespace>
@@ -50,6 +50,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QLNS.Context.cs">
       <AutoGen>True</AutoGen>
@@ -72,6 +73,9 @@
     <Compile Include="TB_BANGCONG.cs">
       <DependentUpon>QLNS.tt</DependentUpon>
     </Compile>
+    <Compile Include="TB_BANGCONG_NHANVIEN_CHITIET.cs">
+      <DependentUpon>QLNS.tt</DependentUpon>
+    </Compile>
     <Compile Include="TB_BAOHIEM.cs">
       <DependentUpon>QLNS.tt</DependentUpon>
     </Compile>
@@ -79,6 +83,9 @@
       <DependentUpon>QLNS.tt</DependentUpon>
     </Compile>
     <Compile Include="TB_CHUCVU.cs">
+      <DependentUpon>QLNS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_Config.cs">
       <DependentUpon>QLNS.tt</DependentUpon>
     </Compile>
     <Compile Include="TB_CONGTY.cs">
@@ -91,6 +98,12 @@
       <DependentUpon>QLNS.tt</DependentUpon>
     </Compile>
     <Compile Include="TB_KHENTHUONG_KYLUAT.cs">
+      <DependentUpon>QLNS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_KYCONG.cs">
+      <DependentUpon>QLNS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TB_KYCONGCHITIET.cs">
       <DependentUpon>QLNS.tt</DependentUpon>
     </Compile>
     <Compile Include="TB_LOAICA.cs">
@@ -120,6 +133,9 @@
     <Compile Include="TB_PHUCAP.cs">
       <DependentUpon>QLNS.tt</DependentUpon>
     </Compile>
+    <Compile Include="TB_TAIKHOAN.cs">
+      <DependentUpon>QLNS.tt</DependentUpon>
+    </Compile>
     <Compile Include="TB_TANGCA.cs">
       <DependentUpon>QLNS.tt</DependentUpon>
     </Compile>
@@ -132,28 +148,29 @@
     <Compile Include="TB_UNGLUONG.cs">
       <DependentUpon>QLNS.tt</DependentUpon>
     </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
-  </ItemGroup>
-  <ItemGroup>
-    <EntityDeploy Include="QLNS.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>QLNS.Designer.cs</LastGenOutput>
-    </EntityDeploy>
+    <Compile Include="TB_USER.cs">
+      <DependentUpon>QLNS.tt</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.Config" />
     <None Include="packages.config" />
+    <EntityDeploy Include="QLNS.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>QLNS.Designer.cs</LastGenOutput>
+    </EntityDeploy>
     <None Include="QLNS.edmx.diagram">
       <DependentUpon>QLNS.edmx</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
     <Content Include="QLNS.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>QLNS.Context.cs</LastGenOutput>
       <DependentUpon>QLNS.edmx</DependentUpon>
+      <LastGenOutput>QLNS.Context.cs</LastGenOutput>
     </Content>
     <Content Include="QLNS.tt">
       <Generator>TextTemplatingFileGenerator</Generator>

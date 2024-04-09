@@ -29,6 +29,7 @@ namespace QLNHANSU
         {
             _isAdding = false;
             LoadData();
+            ShowHideControls(true);
         }
 
         private void LoadData()

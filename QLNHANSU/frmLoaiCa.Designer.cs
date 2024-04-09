@@ -52,10 +52,10 @@ namespace QLNHANSU
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.gcDanhSachCV = new DevExpress.XtraGrid.GridControl();
             this.gvDanhSachCV = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.DELETED_BY = new DevExpress.XtraGrid.Columns.GridColumn();
             this.ID = new DevExpress.XtraGrid.Columns.GridColumn();
             this.LOAICA = new DevExpress.XtraGrid.Columns.GridColumn();
             this.HESO = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.DELETED_BY = new DevExpress.XtraGrid.Columns.GridColumn();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -131,6 +131,7 @@ namespace QLNHANSU
             this.bar2.DockCol = 0;
             this.bar2.DockRow = 0;
             this.bar2.DockStyle = DevExpress.XtraBars.BarDockStyle.Top;
+            this.bar2.FloatLocation = new System.Drawing.Point(326, 168);
             this.bar2.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
             new DevExpress.XtraBars.LinkPersistInfo(DevExpress.XtraBars.BarLinkUserDefines.PaintStyle, this.btnThemCV, DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph),
             new DevExpress.XtraBars.LinkPersistInfo(DevExpress.XtraBars.BarLinkUserDefines.PaintStyle, this.btnSuaCV, DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph),
@@ -302,6 +303,15 @@ namespace QLNHANSU
             this.gvDanhSachCV.Name = "gvDanhSachCV";
             this.gvDanhSachCV.CustomDrawCell += new DevExpress.XtraGrid.Views.Base.RowCellCustomDrawEventHandler(this.gvDanhSachCV_CustomDrawCell);
             // 
+            // DELETED_BY
+            // 
+            this.DELETED_BY.FieldName = "DELETED_BY";
+            this.DELETED_BY.MinWidth = 25;
+            this.DELETED_BY.Name = "DELETED_BY";
+            this.DELETED_BY.Visible = true;
+            this.DELETED_BY.VisibleIndex = 0;
+            this.DELETED_BY.Width = 94;
+            // 
             // ID
             // 
             this.ID.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 7.8F, System.Drawing.FontStyle.Bold);
@@ -337,15 +347,6 @@ namespace QLNHANSU
             this.HESO.Visible = true;
             this.HESO.VisibleIndex = 3;
             this.HESO.Width = 94;
-            // 
-            // DELETED_BY
-            // 
-            this.DELETED_BY.FieldName = "DELETED_BY";
-            this.DELETED_BY.MinWidth = 25;
-            this.DELETED_BY.Name = "DELETED_BY";
-            this.DELETED_BY.Visible = true;
-            this.DELETED_BY.VisibleIndex = 0;
-            this.DELETED_BY.Width = 94;
             // 
             // frmLoaiCa
             // 

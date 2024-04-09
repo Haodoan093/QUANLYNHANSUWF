@@ -1,12 +1,12 @@
-D:\Project_01\QLNS_DCH093\DataLayer\bin\Debug\DataLayer.dll.config
-D:\Project_01\QLNS_DCH093\DataLayer\bin\Debug\DataLayer.dll
-D:\Project_01\QLNS_DCH093\DataLayer\bin\Debug\DataLayer.pdb
-D:\Project_01\QLNS_DCH093\DataLayer\bin\Debug\EntityFramework.dll
-D:\Project_01\QLNS_DCH093\DataLayer\bin\Debug\EntityFramework.SqlServer.dll
-D:\Project_01\QLNS_DCH093\DataLayer\bin\Debug\EntityFramework.xml
-D:\Project_01\QLNS_DCH093\DataLayer\bin\Debug\EntityFramework.SqlServer.xml
-D:\Project_01\QLNS_DCH093\DataLayer\obj\Debug\DataLayer.csproj.AssemblyReference.cache
-D:\Project_01\QLNS_DCH093\DataLayer\obj\Debug\DataLayer.csproj.CoreCompileInputs.cache
-D:\Project_01\QLNS_DCH093\DataLayer\obj\Debug\DataLayer.csproj.CopyComplete
-D:\Project_01\QLNS_DCH093\DataLayer\obj\Debug\DataLayer.dll
-D:\Project_01\QLNS_DCH093\DataLayer\obj\Debug\DataLayer.pdb
+D:\cacfile zalo\Hocki2\Congnghe.net\QLNS_DCH093\DataLayer\bin\Debug\DataLayer.dll.config
+D:\cacfile zalo\Hocki2\Congnghe.net\QLNS_DCH093\DataLayer\bin\Debug\DataLayer.dll
+D:\cacfile zalo\Hocki2\Congnghe.net\QLNS_DCH093\DataLayer\bin\Debug\DataLayer.pdb
+D:\cacfile zalo\Hocki2\Congnghe.net\QLNS_DCH093\DataLayer\bin\Debug\EntityFramework.dll
+D:\cacfile zalo\Hocki2\Congnghe.net\QLNS_DCH093\DataLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\cacfile zalo\Hocki2\Congnghe.net\QLNS_DCH093\DataLayer\bin\Debug\EntityFramework.xml
+D:\cacfile zalo\Hocki2\Congnghe.net\QLNS_DCH093\DataLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\cacfile zalo\Hocki2\Congnghe.net\QLNS_DCH093\DataLayer\obj\Debug\DataLayer.csproj.AssemblyReference.cache
+D:\cacfile zalo\Hocki2\Congnghe.net\QLNS_DCH093\DataLayer\obj\Debug\DataLayer.csproj.CoreCompileInputs.cache
+D:\cacfile zalo\Hocki2\Congnghe.net\QLNS_DCH093\DataLayer\obj\Debug\DataLayer.csproj.CopyComplete
+D:\cacfile zalo\Hocki2\Congnghe.net\QLNS_DCH093\DataLayer\obj\Debug\DataLayer.dll
+D:\cacfile zalo\Hocki2\Congnghe.net\QLNS_DCH093\DataLayer\obj\Debug\DataLayer.pdb

@@ -20,6 +20,12 @@ namespace DataLayer
         public string NOIDUNG { get; set; }
         public Nullable<int> IDPC { get; set; }
         public Nullable<double> SOTIEN { get; set; }
+        public Nullable<int> CREATED_BY { get; set; }
+        public Nullable<System.DateTime> CREATED_DATE { get; set; }
+        public Nullable<int> UPDATED_BY { get; set; }
+        public Nullable<System.DateTime> UPDATED_DATE { get; set; }
+        public Nullable<int> DELETED_BY { get; set; }
+        public Nullable<System.DateTime> DELETED_DATE { get; set; }
     
         public virtual TB_NHANVIEN TB_NHANVIEN { get; set; }
         public virtual TB_PHUCAP TB_PHUCAP { get; set; }

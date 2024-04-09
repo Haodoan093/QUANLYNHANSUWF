@@ -12,6 +12,8 @@
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -31,6 +33,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DevExpress.Data.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpo.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
@@ -51,15 +55,19 @@
     <Compile Include="BOPHAN.cs" />
     <Compile Include="CHUCVU.cs" />
     <Compile Include="CONGTY.cs" />
+    <Compile Include="DANGNHAP.cs" />
     <Compile Include="DANTOC.cs" />
     <Compile Include="DTO\HOPDONG_DTO.cs" />
     <Compile Include="DTO\KHENTHUONG_KYLUAT_DTO.cs" />
     <Compile Include="DTO\NHANVIEN_DIEUCHUYEN_DTO.cs" />
     <Compile Include="DTO\NHANVIEN_DTO.cs" />
+    <Compile Include="DTO\NHANVIEN_PHUCAP_DTO.cs" />
     <Compile Include="DTO\NHANVIEN_TANGLUONG_DTO.cs" />
     <Compile Include="DTO\NHANVIEN_THOIVIEC_DTO.cs" />
+    <Compile Include="DTO\TANGCA_DTO.cs" />
     <Compile Include="HOPDONGLAODONG.cs" />
     <Compile Include="KHENTHUONG_KYLUAT.cs" />
+    <Compile Include="KYCONGCHITIET.cs" />
     <Compile Include="LOAICA.cs" />
     <Compile Include="LOAICONG.cs" />
     <Compile Include="NHANVIEN.cs" />
@@ -67,19 +75,23 @@
     <Compile Include="NHANVIEN_TANGLUONG.cs" />
     <Compile Include="NHANVIEN_THOIVIEC.cs" />
     <Compile Include="PHONGBAN.cs" />
+    <Compile Include="PHUCAP.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="KYCONG.cs" />
+    <Compile Include="SYS_CONFIG.cs" />
+    <Compile Include="TANGCA.cs" />
     <Compile Include="TONGIAO.cs" />
     <Compile Include="TRINHDO.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DataLayer\DataLayer.csproj">
-      <Project>{9d32ad21-a918-4008-ab7d-d2f9b5cf9dc1}</Project>
-      <Name>DataLayer</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataLayer\DataLayer.csproj">
+      <Project>{27a0b362-d5ff-4a0c-b438-62a7c743ffb0}</Project>
+      <Name>DataLayer</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
