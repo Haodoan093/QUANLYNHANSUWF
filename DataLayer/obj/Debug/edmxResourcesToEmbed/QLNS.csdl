@@ -107,6 +107,7 @@
       <End Role="TB_PHUCAP" EntitySet="TB_PHUCAP" />
       <End Role="TB_NHANVIEN_PHUCAP" EntitySet="TB_NHANVIEN_PHUCAP" />
     </AssociationSet>
+    <EntitySet Name="TB_TAIKHOAN" EntityType="QLNHANSUModel.TB_TAIKHOAN" />
   </EntityContainer>
   <EntityType Name="sysdiagram">
     <Key>
@@ -677,4 +678,12 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
+  <EntityType Name="TB_TAIKHOAN">
+    <Key>
+      <PropertyRef Name="USERNAME" />
+    </Key>
+    <Property Name="USERNAME" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="PASSWORD" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="LEVELS" Type="Int32" />
+  </EntityType>
 </Schema>

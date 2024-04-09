@@ -242,6 +242,14 @@
           <Property Name="TENPC" Type="nvarchar" MaxLength="50" />
           <Property Name="SOTIEN" Type="float" />
         </EntityType>
+        <EntityType Name="TB_TAIKHOAN">
+          <Key>
+            <PropertyRef Name="USERNAME" />
+          </Key>
+          <Property Name="USERNAME" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="PASSWORD" Type="nvarchar" MaxLength="50" />
+          <Property Name="LEVELS" Type="int" />
+        </EntityType>
         <EntityType Name="TB_TANGCA">
           <Key>
             <PropertyRef Name="ID" />
@@ -551,6 +559,7 @@
           <EntitySet Name="TB_NV_DIEUCHUYEN" EntityType="Self.TB_NV_DIEUCHUYEN" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="TB_PHONGBAN" EntityType="Self.TB_PHONGBAN" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="TB_PHUCAP" EntityType="Self.TB_PHUCAP" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TB_TAIKHOAN" EntityType="Self.TB_TAIKHOAN" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="TB_TANGCA" EntityType="Self.TB_TANGCA" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="TB_TONGIAO" EntityType="Self.TB_TONGIAO" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="TB_TRINHDO" EntityType="Self.TB_TRINHDO" Schema="dbo" store:Type="Tables" />
@@ -751,6 +760,7 @@
             <End Role="TB_PHUCAP" EntitySet="TB_PHUCAP" />
             <End Role="TB_NHANVIEN_PHUCAP" EntitySet="TB_NHANVIEN_PHUCAP" />
           </AssociationSet>
+          <EntitySet Name="TB_TAIKHOAN" EntityType="QLNHANSUModel.TB_TAIKHOAN" />
         </EntityContainer>
         <EntityType Name="sysdiagram">
           <Key>
@@ -1321,6 +1331,14 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
+        <EntityType Name="TB_TAIKHOAN">
+          <Key>
+            <PropertyRef Name="USERNAME" />
+          </Key>
+          <Property Name="USERNAME" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="PASSWORD" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="LEVELS" Type="Int32" />
+        </EntityType>
         </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
@@ -1621,6 +1639,15 @@
                 <ScalarProperty Name="THANG" ColumnName="THANG" />
                 <ScalarProperty Name="NAM" ColumnName="NAM" />
                 <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TB_TAIKHOAN">
+            <EntityTypeMapping TypeName="QLNHANSUModel.TB_TAIKHOAN">
+              <MappingFragment StoreEntitySet="TB_TAIKHOAN">
+                <ScalarProperty Name="LEVELS" ColumnName="LEVELS" />
+                <ScalarProperty Name="PASSWORD" ColumnName="PASSWORD" />
+                <ScalarProperty Name="USERNAME" ColumnName="USERNAME" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

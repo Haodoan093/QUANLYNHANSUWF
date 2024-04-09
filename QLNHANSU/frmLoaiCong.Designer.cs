@@ -56,6 +56,7 @@ namespace QLNHANSU
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.spHeSo = new DevExpress.XtraEditors.SpinEdit();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+            this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
             ((System.ComponentModel.ISupportInitialize)(this.gvDanhSachCV)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gcDanhSachCV)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.barManager1)).BeginInit();
@@ -335,6 +336,7 @@ namespace QLNHANSU
             // 
             // splitContainer1.Panel1
             // 
+            this.splitContainer1.Panel1.Controls.Add(this.labelControl3);
             this.splitContainer1.Panel1.Controls.Add(this.spHeSo);
             this.splitContainer1.Panel1.Controls.Add(this.labelControl2);
             this.splitContainer1.Panel1.Controls.Add(this.txtTenCV);
@@ -346,6 +348,14 @@ namespace QLNHANSU
             this.splitContainer1.Size = new System.Drawing.Size(1101, 703);
             this.splitContainer1.SplitterDistance = 166;
             this.splitContainer1.TabIndex = 7;
+            // 
+            // labelControl3
+            // 
+            this.labelControl3.Location = new System.Drawing.Point(546, 84);
+            this.labelControl3.Name = "labelControl3";
+            this.labelControl3.Size = new System.Drawing.Size(75, 16);
+            this.labelControl3.TabIndex = 4;
+            this.labelControl3.Text = "labelControl3";
             // 
             // frmLoaiCong
             // 
@@ -402,5 +412,6 @@ namespace QLNHANSU
         private DevExpress.XtraEditors.LabelControl labelControl2;
         private DevExpress.XtraEditors.TextEdit txtTenCV;
         private DevExpress.XtraEditors.LabelControl labelControl1;
+        private DevExpress.XtraEditors.LabelControl labelControl3;
     }
 }

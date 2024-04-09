@@ -214,3 +214,5 @@ D:\Project_01\QLNS_DCH093\QLNHANSU\obj\Debug\QLNHANSU.frmThoiViec.resources
 D:\Project_01\QLNS_DCH093\QLNHANSU\obj\Debug\QLNHANSU.frmTangLuong.resources
 D:\Project_01\QLNS_DCH093\QLNHANSU\obj\Debug\QLNHANSU.frmLoaiCa.resources
 D:\Project_01\QLNS_DCH093\QLNHANSU\obj\Debug\QLNHANSU.frmLoaiCong.resources
+D:\Project_01\QLNS_DCH093\QLNHANSU\obj\Debug\QLNHANSU.frmDangKy.resources
+D:\Project_01\QLNS_DCH093\QLNHANSU\obj\Debug\QLNHANSU.frmDangNhap.resources

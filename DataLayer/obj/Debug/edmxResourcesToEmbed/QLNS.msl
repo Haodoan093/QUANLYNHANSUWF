@@ -298,5 +298,14 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+    <EntitySetMapping Name="TB_TAIKHOAN">
+      <EntityTypeMapping TypeName="QLNHANSUModel.TB_TAIKHOAN">
+        <MappingFragment StoreEntitySet="TB_TAIKHOAN">
+          <ScalarProperty Name="LEVELS" ColumnName="LEVELS" />
+          <ScalarProperty Name="PASSWORD" ColumnName="PASSWORD" />
+          <ScalarProperty Name="USERNAME" ColumnName="USERNAME" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
   </EntityContainerMapping>
 </Mapping>

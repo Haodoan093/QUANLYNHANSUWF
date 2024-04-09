@@ -171,8 +171,7 @@ namespace BusinessLayer
         public List<HOPDONG_DTO> getTTlenLuong()
         {
             List<TB_HOPDONG> lstHD = db.TB_HOPDONG
-              .Where(x => x.NGAYBATDAU.Value.Year >= DateTime.Now.Year - 2 && x.NGAYBATDAU.Value.Year <= DateTime.Now.Year &&
-                          x.NGAYBATDAU.Value.Month == DateTime.Now.Month)
+              .Where(x => x.NGAYBATDAU.Value.Year >= DateTime.Now.Year - 2)
               .ToList();
 
             List<HOPDONG_DTO> lstDTO = new List<HOPDONG_DTO>();

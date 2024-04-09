@@ -120,6 +120,9 @@
     <Compile Include="TB_PHUCAP.cs">
       <DependentUpon>QLNS.tt</DependentUpon>
     </Compile>
+    <Compile Include="TB_TAIKHOAN.cs">
+      <DependentUpon>QLNS.tt</DependentUpon>
+    </Compile>
     <Compile Include="TB_TANGCA.cs">
       <DependentUpon>QLNS.tt</DependentUpon>
     </Compile>

@@ -14,7 +14,7 @@ namespace BusinessLayer
         // Lấy một mục theo ID
         public TB_BOPHAN getItem(int id)
         {
-            return db.TB_BOPHAN.FirstOrDefault(x => x.IDBP == id);
+            return db.TB_BOPHAN.Where(x=>x.IDBP==id).FirstOrDefault(x => x.IDBP == id);
         }
 
         // Thêm một mục

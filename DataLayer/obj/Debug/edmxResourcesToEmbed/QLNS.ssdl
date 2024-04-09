@@ -237,6 +237,14 @@
     <Property Name="TENPC" Type="nvarchar" MaxLength="50" />
     <Property Name="SOTIEN" Type="float" />
   </EntityType>
+  <EntityType Name="TB_TAIKHOAN">
+    <Key>
+      <PropertyRef Name="USERNAME" />
+    </Key>
+    <Property Name="USERNAME" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="PASSWORD" Type="nvarchar" MaxLength="50" />
+    <Property Name="LEVELS" Type="int" />
+  </EntityType>
   <EntityType Name="TB_TANGCA">
     <Key>
       <PropertyRef Name="ID" />
@@ -546,6 +554,7 @@
     <EntitySet Name="TB_NV_DIEUCHUYEN" EntityType="Self.TB_NV_DIEUCHUYEN" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="TB_PHONGBAN" EntityType="Self.TB_PHONGBAN" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="TB_PHUCAP" EntityType="Self.TB_PHUCAP" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TB_TAIKHOAN" EntityType="Self.TB_TAIKHOAN" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="TB_TANGCA" EntityType="Self.TB_TANGCA" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="TB_TONGIAO" EntityType="Self.TB_TONGIAO" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="TB_TRINHDO" EntityType="Self.TB_TRINHDO" Schema="dbo" store:Type="Tables" />
